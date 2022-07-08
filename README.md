@@ -1,7 +1,7 @@
 # Sum_of_Disjoint_Product
 Sum_of_Disjoint_Product is a matlab code that generates expression of the probability of a union of a set of events.
 
-Given a collection of sets, i.e., $$A = \{A_1, A_2, A_3, ..., A_n \}$$,where $$A_i = \{ ... x_i ...\}$$ is a set of variables $$x_i$$'s.
+Given a collection of sets, i.e., $A = \{A_1, A_2, A_3, ..., A_n \}$,where $$A_i = \{ ... x_i ...\}$$ is a set of variables $$x_i$$'s.
 Objective is to compute $$P(\cup_{j=1}^{n} A_j) = P(A_1 \cup A_2 \cup A_3 \cup ... \cup A_n)$$
 
 $$F(s|A) = F(A \cup \{s\}) - F(A)$$
